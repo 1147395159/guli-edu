@@ -77,7 +77,6 @@ public class EduTeacherController {
         map .put("rows",records);
 
         return R.ok().data(map);
-
     }
 }
 
