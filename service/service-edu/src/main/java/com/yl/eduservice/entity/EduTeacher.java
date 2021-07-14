@@ -60,5 +60,7 @@ public class EduTeacher implements Serializable {
     @ApiModelProperty(value = "更新时间")
     private Date gmtModified;
 
+    private Integer workId;
+
 
 }
